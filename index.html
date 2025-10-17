@@ -1,0 +1,278 @@
+<!DOCTYPE html><
+<html lang="pt-br"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css"> 
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+        <title>Victor Oliveira</title>
+    </head>    
+<body> <!-- Corpo do site -->
+
+    <header class="active">
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <a href="#home" class="logo">Victor Oliveira</a> <i class='bx bx-menu' id="menu-icon"></i>
+      <nav>
+           <a href="#home" class="active">Home</a>
+           <a href="#sobre">Sobre</a> 
+           <a href="#portfolio">Projetos</a> 
+           <a href="#servicos">Serviços</a> 
+           <a href="#contato">Contato</a>
+      </nav>  <!-- Estou definindo a responsividade do site, entao por aqui quando o usuario clicar no menu, ele vai para a seção correspondente -->
+      <!-- Tag NAV para definir a navegação -->
+  </header>
+
+<section class="home active" id="home"> 
+    <div class="home-detalhe">
+        <h1>Victor Oliveira</h1>
+        <h2>Eu sou
+            <span style="--i:3;" data-text="VideoMaker">VideoMaker</span>
+            <span style="--i:2;" data-text="Fotografo">Fotografo</span>
+            <span style="--i:1;" data-text="Creator Audiovisual">Creator Audiovisual</span>
+        </h2>
+        <div class="btn-sci">
+            <a href="https://drive.google.com/file/d/1dJuiB6pBgDji1h_-N6o0dCnJYC9KVusm/preview" target="_blank" class="btn">Conheça meus Serviços</a>
+            <div class="sci">
+                <a href="https://www.instagram.com/eucauanv/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                 <a href="https://w.app/ybidhi" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>  
+    </div>
+    <div class="home-img">
+        <div class="img-box">
+            <div class="img-item">
+                <img src="./img/foto_Victor-removebg-preview.png" alt="foto de capa victor">
+            </div>      
+        </div>
+    </div>
+</section><!-- Aqui defino uma secao tudo sobre o inicio da pagina, entao por aqui e aonde ocorre os efeitos especiais, aonde ele aparece o que é, abaixo a descrissao e abaixo a imagem, tudo suparado por div- espacos -->
+
+<section class="sobre" id="sobre"> 
+    <div class="sobre-container">
+        <div class="sobre-box">
+           
+            <button class="sobre-btn" data-target="sobre-mim-detalhe">Sobre Mim</button> 
+            <button class="sobre-btn" data-target="tecnologias-detalhe">Tecnologias</button>
+            <button class="sobre-btn" data-target="experiencias-detalhe">Experiências</button> </div>
+
+        <div class="sobre-box">
+            <div class="sobre-detalhe" id="sobre-mim-detalhe">
+                <h2 class="heading"><span>Sobre Mim</span></h2>
+                <p> VideoMaker apaixonado por contar histórias através das lentes.
+                    Com um olhar sensível e uma abordagem autêntica, busco registrar momentos únicos e emoções genuínas,
+                     transformando cada imagem e filmagem em uma memória inesquecível.
+                     Ao longo da minha trajetória, tive a oportunidade de trabalhar em diversos projetos,
+                     desde retratos íntimos até grandes eventos, sempre com o proposito de transformar 
+                     cada momento em narrativas visuais autenticas. 
+                      Acredito que ser VideoMaker é mais do que apenas um registro visual, é uma forma de arte que conecta pessoas,
+                      revivendo sentimentos e preservando experiências.</p>
+            </div>
+
+            <div class="sobre-detalhe" id="tecnologias-detalhe"> 
+                <h2 class="heading"><span>Tecnologias</span></h2>
+                <div class="sobre-list">
+                    <div class="sobre-item">
+                        <img src="./img/1680932719blue-capcut-logo-removebg-preview.png" alt="CapCut" class="sobre-img">
+                        <span><h3>CapCut</h3></span>
+                    </div>
+                     <div class="sobre-item">
+                        <img src="./img/1.png" alt="Adobe Premiere" class="sobre-img">
+                        <span><h3>Adobe Premiere</h3></span>
+                    </div>
+                     <div class="sobre-item">
+                        <img src="./img/2.png" alt="Adobe After Effects" class="sobre-img">
+                        <span><h3>Adobe After effects </h3></span>
+                    </div>
+                     <div class="sobre-item">
+                        <img src="./img/3.png" alt="Adobe Lightrooms" class="sobre-img">
+                        <span><h3>Lightroom </h3></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Aqui falo sobre as tecnologia   -->
+
+            <div class="sobre-detalhe" id="experiencias-detalhe"> <h2 class="heading">Minhas <span>Experiências</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>VideoMaker</h3>
+                            <p>Atuo em todas as etapas da produção audiovisual, desde o planejamento e captação até a edição, garantindo um resultado criativo e profissional.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Fotógrafo</h3>
+                            <p>Experiência em fotografia de eventos, produtos e retratos, com domínio em iluminação, enquadramento e pós-produção para resultados profissionais.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Editor de Vídeo</h3>
+                            <p>Edição de vídeos criativos do básico ao avançado com foco em ritmo, estética e storytelling, além da criação de animações e suporte em produções de curta-metragem</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Palestrante</h3>
+                            <p>Responsável por ministrar oficinas e palestras em eventos, abordando temas como técnicas de vídeo, fotografia e edição, com foco em aprendizado prático e interação com o público</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Aqui falo sobre timeliner -->
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Meus <span>Projetos</span></h2>
+    
+    <div class="portfolio-section">
+        <div class="portfolio-item">
+            <div class="portfolio-video">
+                <video src="./img/Férias- tempo de brincar e crescer!   Brincar vai muito além da diversão! É uma oportunidade única para as crianças explorarem o mundo, desenvolverem habilidades e criarem memórias afetivas inesquecíveis. Durante a.mp4" autoplay loop controls playsinline></video>
+            </div>
+            <div class="portfolio-content">
+                <h2>EDIÇÃO DE VIDEO INSTITUCIONAL - CLINICA INFANTIL </h2>
+                <p>Fui responsável pela edição completa do vídeo institucional, com foco em transmitir sensibilidade e leveza na comunicação.
+                     Trabalhei na seleção de cenas, cortes e ajustes visuais para destacar a proposta acolhedora e educativa da clínica,
+                      reforçando sua identidade e propósito.</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <div class="portfolio-video">
+                <div class="img-item">
+                    <img src="./img/IMG_7637.jpg" alt="Foto de Casamento Ariele">
+                </div>
+            </div>
+            <div class="portfolio-content">
+                <h2>FOTOS DE CASAMENTO</h2>
+                <p>Atuei como fotógrafo, responsável pelo registro completo do evento, desde a preparação até a celebração.
+                     Foquei em capturar momentos autênticos, expressões e detalhes que transmitissem a emoção e a elegância do casamento,
+                      garantindo um resultado harmonioso e de alta qualidade visual.
+                    </p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <div class="portfolio-video">
+                <video src="./img/Alguns pontos de preenchimento te emagrecem. No vídeo de hoje te mostro quais são eles.mp4" autoplay loop controls playsinline></video>
+            </div>
+            <div class="portfolio-content">
+                <h2>EDIÇÃO DE VÍDEO - CLINICA DE ESTÉTICA</h2>
+                
+                <p>Fui responsável pela edição completa do vídeo institucional, aplicando cortes precisos,
+                 ajustes de cor e transições suaves para destacar os serviços e a identidade visual da clínica.
+                 O resultado final transmite sofisticação, confiança e bem-estar, alinhados à proposta da marca.
+                </p>
+            </div>
+        </div>
+
+    <div class="portfolio-item">
+      <div class="portfolio-video">
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/ZSbu_Ijq03k" 
+          title="DOCUMENTARIO POR UM FIO" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="portfolio-content">
+        <h2>DOCUMENTARIO POR UM FIO</h2>
+        
+        <P>Atuei como videomaker, sendo responsável pela captação de imagens,
+         enquadramentos e composição visual das cenas. Também participei de etapas de edição, 
+         contribuindo para o ritmo narrativo e a estética final do projeto.
+        </P>
+      </div>
+    </div>
+
+</section>
+
+<section class="servicos" id="servicos">
+    <h2 class="heading">Meus <span>Serviços</span></h2>
+    <div class="servicos-container">
+        <div class="servicos-box">
+            <div class="icon">
+                <i class='bx bxs-video-recording' ></i>
+                <a href="#"><i class='bx bx-arrow-back' ></i></a>
+            </div>
+            <h3>VideoMaker</h3>
+            <p>Video Maker criativo, transforma ideias em vídeos impactantes.
+               Especialista em captação, edição e efeitos que destacam marcas.
+              Cria conteúdos envolventes para YouTube, redes sociais e sites.
+              Cada vídeo entrega narrativa visual profissional e de alto impacto</p>
+        </div>
+
+        <div class="servicos-box">
+            <div class="icon">
+                <i class='bx bxs-camera'></i>
+                <a href="#"><i class='bx bx-arrow-back' ></i></a>
+            </div>
+            <h3>Fotografo</h3>
+            <p>Fotógrafo criativo, captura momentos com olhar artístico e técnico.
+               Especialista em composição, iluminação e direção de cenas.
+               Transforma ideias em imagens impactantes para marcas e projetos.
+               Entrega fotos de alta qualidade, prontas para redes sociais, portfólio ou campanhas.</p>
+        </div>
+
+        <div class="servicos-box">
+            <div class="icon">
+                <i class='bx bxs-videos'></i>
+                <a href="#"><i class='bx bx-arrow-back' ></i></a>
+            </div>
+            <h3>Creator Audiovisual</h3>
+            <p>Sou Creator Audiovisual e transformo ideias em conteúdos visuais envolventes.
+               Produzo vídeos e fotos com narrativa criativa e estética impactante.
+               Tenho experiência em edição, motion graphics e storytelling digital.
+               Entrego projetos otimizados para redes sociais, YouTube e outras plataformas digitais.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contato" id="contato">
+    <div class="contato-container">
+     <div class="contato-box">
+        <h2>Entre em contato</h2> 
+          <div class="contato-detalhe">
+           <i class='bx bx-envelope'></i>      
+            <div class="detalhe">
+                <p>E-mail</p>
+                <p>eucauanv@gmail.com</p>
+            </div>
+        </div>
+     </div>
+
+       <div class="contato-box">
+       <form id="contato-form">
+        <h2 class="heading">Duvidas ?<span>Entre em contato</span></h2>
+        <div class="field-box">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="text" name="assunto" placeholder="Assunto" required>
+        <input type="text" name="telefone" placeholder="Numero de telefone" required>
+        <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+
+       </form>
+     </div>
+        </div>
+</section>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
