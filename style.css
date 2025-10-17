@@ -1413,3 +1413,16 @@ textarea:focus {
   outline: 2px solid var(--main-color);
   outline-offset: 2px;
 }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #aaa;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+}
+
+footer strong {
+  color: #fff; /* ou outra cor que combine com seu tema */
+}
